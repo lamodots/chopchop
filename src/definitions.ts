@@ -21,3 +21,7 @@ export type Cat= {
     
 
 }
+
+export type FormData = {
+    email: string
+}
