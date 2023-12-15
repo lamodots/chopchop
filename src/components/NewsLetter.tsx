@@ -19,7 +19,7 @@ function NewsLetter() {
                 </div>
                 <div className='my-4'>
                     <div >
-                      <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col sm:flex-row  items-center justify-between w-full'>
+                      <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-2 sm:flex-row  items-center justify-between w-full'>
                         <input type='email' {...register("email" , { pattern: regRex, required: 'This filed is required'})}  className='p-3 flex w-full rounded-md h-8 text-black'  placeholder='Enter your email' />
                         <button type='submit' className='bg-[#00df9a] text-white rounded-md font-medium w-[200px] ml-4   h-8'>Notify me</button>
                         </form>
